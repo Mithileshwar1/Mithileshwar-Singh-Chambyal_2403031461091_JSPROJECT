@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+#counterlabel {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+.containerbtn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
